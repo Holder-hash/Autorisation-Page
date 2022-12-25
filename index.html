@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Autorisation</title>
+</head>
+<body>
+    <header>
+        <div class="header-contain">
+            <div class="header-logo-contain">
+                <div class="header-logo"></div>
+            </div>
+            
+            <div class="header-links-contain">
+                <ul class="list-contain">
+                    <li ><a href="" class="list-item">Главная</a></li>
+                    <li ><a href="" class="list-item">Новости</a></li>
+                    <li ><a href="" class="list-item">Контакты</a></li>
+                </ul>
+            </div>
+
+            <div class="faq-contain">
+                <div class="faq"></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-lens">
+
+            <div class="cards-contain">
+
+                <div class="reg-box">
+
+                    <form action="#" class="reg-form">
+                        <div class="login-box">
+                            <legend id="regInpLegend">Login</legend>
+                            <input type="text" id="regInp" class="regFormEl">
+                        </div>
+                        <div class="mail-box">
+                            <legend id="regMailLegend">E-Mail</legend>
+                            <input type="email" id="regMail" class="regFormEl">
+                        </div>
+                        <div class="pass-box">
+                            <legend id="regPassLegend">Password</legend>
+                            <input type="password" id="regPass" class="regFormEl">
+                        </div>
+                    </form>
+
+                    <button id="regBtn"><span id="signUpBtnSpan">Sign Up</span></button>
+                </div>
+
+                <p class="or">OR</p>
+
+                <div class="autoris-box">
+                    <button id="autorisBtn"><span id="signInBtnSpan">Sign In</span></button>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-contain">
+            <ul class="footer-list-contain">
+                <li class="footer-item">H0leR</li>
+                <li class="footer-item github">GitHub</li>
+                <li class="footer-item">Telegram</li>
+            </ul>
+        </div>
+        <p class="copy">2022 все права защищены</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
+    <script>
+    SmoothScroll({
+        // Время скролла 400 = 0.4 секунды
+        animationTime    : 800,
+        // Размер шага в пикселях 
+        stepSize         : 75,
+    
+        // Дополнительные настройки:
+        
+        // Ускорение 
+        accelerationDelta : 30,  
+        // Максимальное ускорение
+        accelerationMax   : 2,   
+    
+        // Поддержка клавиатуры
+        keyboardSupport   : true,  
+        // Шаг скролла стрелками на клавиатуре в пикселях
+        arrowScroll       : 50,
+    
+        // Pulse (less tweakable)
+        // ratio of "tail" to "acceleration"
+        pulseAlgorithm   : true,
+        pulseScale       : 4,
+        pulseNormalize   : 1,
+    
+        // Поддержка тачпада
+        touchpadSupport   : true,
+    })
+    </script>
+</script>
+    <script src="script.js"></script>
+</body>
+</html>
