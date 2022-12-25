@@ -80,8 +80,8 @@ header {
 .list-item {
     position: relative;
     align-self: center;
-    font-size: 4vh;
-    top: 1.5vh;
+    font-size: 3vh;
+    top: 2vh;
     text-decoration: none;
     color: rgb(46, 15, 44);
     text-shadow: 0 0 2.5vh rgb(255, 0, 221);
@@ -267,11 +267,12 @@ legend {
     position: relative;
     margin: 0;
     padding: 0;
-    font-size: 10vh;
+    font-size: 9vh;
     align-self: center;
     top: -40%;
     color: rgb(126, 114, 168);
     text-shadow: 0 0 1vh rgb(0, 0, 0);
+    opacity: 0.5;
 }
 
 
@@ -392,7 +393,7 @@ footer {
 .footer-list-contain {
     position: relative;
     list-style: none;
-    font-size: 6vh;
+    font-size: 4.5vh;
     display: flex;
     justify-content: space-between;
     margin: 0;
@@ -404,7 +405,7 @@ footer {
     margin: 0;
     padding: 0;
     position: relative;
-    top: 3.5vh;
+    top: 5.5vh;
 
     color: rgb(46, 15, 44);
     text-shadow: 0 0 1vh rgba(0, 0, 0, 0.274);
@@ -422,9 +423,9 @@ footer {
 
 .copy {
     position: relative;
-    bottom: 0px;
+    bottom: -1.5vh;
     text-align: center;
-    font-size: 1.8vh;
+    font-size: 1.58vh;
     text-shadow: 0 0 1vh rgba(39, 0, 29, 0.274);
 }
 
