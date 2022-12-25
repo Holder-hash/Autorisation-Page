@@ -84,3 +84,18 @@ logPass.onblur = () => {
         logPassLegend.style = 'margin-top: 9%; color: rgb(74, 41, 134);'
     }
 }
+
+//FAQ content block
+var faqBox = document.querySelector('.faq-content-box');
+var faqBtn = document.querySelector('.faq');
+
+faqBtn.addEventListener('click', () => {
+    faqBox.style = 'display: block;';
+})
+
+document.addEventListener('click', (e) => {
+    var faqBoxWindow = e.composedPath().includes(faqBox);
+    if (!faqBoxWindow && e.target != faqBtn) {
+        faqBox.style = 'display: none;';
+    }
+})
