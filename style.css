@@ -330,6 +330,48 @@ legend {
     }
 }
 
+/*Log Form*/
+
+.log-form {
+    width: 100%;
+    height: 70%;
+
+    display: flex;
+    flex-direction: column;
+
+    opacity: 0;
+    transition: .5S;
+}
+
+.logFormEl {
+    position: relative;
+    width: 99%;
+    height: 3vh;
+
+    border: 0;
+    border-bottom: 1px solid rgb(61, 28, 0);
+    background: none;
+    outline: none;
+    margin-top: 8%;
+
+    font-size: 3vh;
+    text-align: center;
+    color: rgb(62, 0, 109);
+}
+
+.log-form legend {
+    position: absolute;
+    padding-top: 1%;
+    font-size: 2vh;
+    margin-top: 9%;
+    left: 50%;
+    transform: translate(-50%);
+
+    transition: .5s;
+    color: rgb(61, 28, 0);
+    text-shadow: 0 0 .15vh rgb(0, 0, 0);
+}
+
 /*Footer*/
 
 footer {
