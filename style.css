@@ -132,7 +132,8 @@ header {
     overflow-y: scroll;
     box-shadow: 0 0 5vh rgb(69,0,105);
 
-    display: none;
+    transition: .2s;
+    opacity: 0;
 }
 
 .faq-content-contain {

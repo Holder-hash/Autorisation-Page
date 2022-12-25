@@ -90,12 +90,12 @@ var faqBox = document.querySelector('.faq-content-box');
 var faqBtn = document.querySelector('.faq');
 
 faqBtn.addEventListener('click', () => {
-    faqBox.style = 'display: block;';
+    faqBox.style = 'opacity: 1;';
 })
 
 document.addEventListener('click', (e) => {
     var faqBoxWindow = e.composedPath().includes(faqBox);
     if (!faqBoxWindow && e.target != faqBtn) {
-        faqBox.style = 'display: none;';
+        faqBox.style = 'opacity: 0;';
     }
 })
