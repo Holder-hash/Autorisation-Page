@@ -243,7 +243,7 @@ main {
     height: 10vh;
     border-radius: 2vh;
     background-color: rgb(126, 114, 168);
-    transition: .5s;
+    transition: .2s;
 
     bottom: 40%;
     border: 0;
@@ -254,13 +254,18 @@ main {
 #regBtn:hover {
     cursor: pointer;
 }
+#regBtn:active {
+    background-color: rgb(98, 86, 139);
+}
 
 #signUpBtnSpan {
     font-size: 5vh;
     color: rgb(126, 114, 168);
     text-shadow: 0 0 1vh rgb(0, 0, 0);
     transition: .5s;
+    user-select: none;
 }
+
 
 @keyframes regDown {
     0% {
@@ -357,6 +362,7 @@ legend {
     height: 10vh;
     border-radius: 2vh;
     background-color: rgb(126, 114, 168);
+    transition: .2s;
 
     bottom: 40%;
     border: 0;
@@ -367,12 +373,16 @@ legend {
 #autorisBtn:hover {
     cursor: pointer;
 }
+#autorisBtn:active {
+    background-color: rgb(98, 86, 139);
+}
 
 #signInBtnSpan {
     font-size: 5vh;
     color: rgb(126, 114, 168);
     text-shadow: 0 0 1vh rgb(0, 0, 0);
     transition: .5s;
+    user-select: none;
 }
 
 @keyframes autorisDown {
@@ -424,6 +434,12 @@ legend {
     transition: .5s;
     color: rgb(61, 28, 0);
     text-shadow: 0 0 .15vh rgb(0, 0, 0);
+}
+
+.log-pass-box a{
+    font-size: 1.5vh;
+    padding-left: .3vh;
+    text-decoration: none;
 }
 
 /*Footer*/
@@ -479,6 +495,6 @@ footer {
     bottom: -1.5vh;
     text-align: center;
     font-size: 1.58vh;
-    text-shadow: 0 0 1vh rgba(39, 0, 29, 0.274);
+    text-shadow: 0 0 1vh rgba(61, 0, 46, 0.274);
 }
 
